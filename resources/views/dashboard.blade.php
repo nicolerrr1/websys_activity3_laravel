@@ -144,7 +144,7 @@
     <p class="text-center text-gray-700 mb-6">Here’s your personal dashboard. Manage your resume and profile details easily!</p>
 
     <!-- Resume Summary -->
-    <h2>✨ Your Resume Summary</h2>
+    <h2>Your Resume Summary</h2>
 
     <div class="info-section">
         <div class="info-card">
@@ -178,8 +178,8 @@
 
     <!-- Action Buttons -->
     <div class="action-buttons">
-        <a href="{{ route('resume.edit') }}" class="edit-btn">✏️ Edit Resume</a>
-        <a href="{{ route('resume.public', Auth::id()) }}" target="_blank" class="view-btn">🌿 View Public Resume</a>
+        <a href="{{ route('resume.edit') }}" class="edit-btn">Edit Resume</a>
+        <a href="{{ route('resume.public', Auth::id()) }}" target="_blank" class="view-btn">View Public Resume</a>
     </div>
 </div>
 

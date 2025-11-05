@@ -24,7 +24,7 @@ class AuthController extends Controller
         $username = $request->input('username');
         $password = $request->input('password');
 
-        // Hardcoded credentials (like your old PHP example)
+        // Hardcoded credentials
         if ($username === 'nicole' && $password === 'nicole08') {
             Session::put('username', $username);
             return redirect()->route('resume');

@@ -24,5 +24,5 @@ Route::middleware(['auth'])->group(function () {
 // Public Resume View
 Route::get('/resume/{id}', [ResumeController::class, 'show'])->name('resume.public'); // <- changed name
 
-// Include auth routes (Laravel Breeze or default)
+// Include auth routes
 require __DIR__.'/auth.php';
